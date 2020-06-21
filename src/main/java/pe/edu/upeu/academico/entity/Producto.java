@@ -26,7 +26,7 @@ public class Producto implements Serializable{
 	@ManyToOne
 	@JoinColumn(name="CAT_ID")
 	private Categoria categoria;
-
+	
 	public long getId() {
 		return id;
 	}
